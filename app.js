@@ -3,7 +3,7 @@ var path = require('path');
 var app = express();
 
 app.set("view engine", 'ejs');
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.static(path.join(__dirname, 'public')));
 
 var data={count:0};
 app.get('/', function(req, res){
